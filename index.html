@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Voting System</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+
+
+    <body>
+        <div class="wrapper">
+            <right>
+            <div class="section">
+                
+                <div class="topbar">
+                    
+                    <span class='topbarButton' > 
+                        <i class="fa fa-user " ></i>
+                        Hi, Mike </span>   
+                </div>
+           
+            </div>
+        
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="assets/DIV-LoGo.png" width="100%" />
+                </div>
+
+                <ul>
+                    <li>
+                        <a style="background: rgb(99,102,241); color: #fff;">President</a>
+                    </li>
+                    <li>
+                        <a>Vice President</a>
+                    </li>
+                    <li>
+                        <a>General Secretary</a>
+                    </li>
+                    <li>
+                        <a>Financial Secretary</a>
+                    </li>
+                    <li>
+                        <a>General Organizer</a>
+                    </li>
+                    <li>
+                        <a>Public Relations</a>
+                    </li>
+                    <li>
+                        <a>Secondary for Education</a>
+                    </li>
+                    <li>
+                        <a>Press and Information</a>
+                    </li>
+                    <li>
+                        <a> Coordinating Secretary</a>
+                    </li>
+                </ul>
+
+            </div>
+            <center>
+            <div class="main">
+                
+                    <table>
+                        <tr>
+                            
+                            <td>
+
+                                <div class="card">
+                                    <img src="./assets/candidate01.PNG">
+                                    <div class="card-body">
+                                        <div class='candidate-name'> Adjoa
+                                            Frimpong</div>
+                                        <div> Adjoa the leader</div>
+                                    </div>
+
+                                    <div class="card-footer"
+                                        style="background:rgb(52,211,153);">
+                                        Green Team
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <img src="./assets/candidate02.PNG">
+                                    <div class="card-body">
+                                        <div class='candidate-name'> Kofi Baboni</div>
+                                        <div> Kofi the warrior</div>
+                                    </div>
+                                    <div class="card-footer"
+                                        style="background:rgb(255,0,255);">
+                                        Magenta Team
+                                    </div>
+
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="card">
+
+                                    <img src="./assets/candidate03.PNG">
+
+                                    <div class="card-body">
+                                        <div class='candidate-name'> Kwadwo Koto</div>
+                                        <div> Couragious Kwadeo</div>
+                                    </div>
+                                    <div class="card-footer"
+                                        style="background:rgb(65,105,225);">
+                                        Royal Team
+                                    </div>
+
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="card">
+
+                                    <img src="./assets/candidate04.PNG">
+
+                                    <div class="card-body">
+                                        <div class='candidate-name'> Ama
+                                            Nyamekye</div>
+                                        <div> Ama the organizer</div>
+                                    </div>
+                                    <div class="card-footer"
+                                        style="background:rgb(232,201,27);">
+                                        Gold Team
+                                    </div>
+
+                                </div>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            
+                            <td colspan="2" class="onhover">
+                                <center>
+                                <div class="container" onmouseover="hoverOn();"
+                                    onmouseout="hoverOff();">
+                                    <div class="box card">
+                                        <img src="./assets/candidate01.PNG">
+                                        <div class="card-body">
+                                            <div class='candidate-name'> Adjoa
+                                                Frimpong</div>
+                                            <div> Adjoa the leader</div>
+                                        </div>
+                                        <div class="card-footer"
+                                            style="background:rgb(52,211,153);">
+                                            Green Team
+                                        </div>
+                                    </div>
+                                    <div class="box" id="overlay">
+                                    
+                                       
+                                        <img src="assets/fingerprint.png"
+                                                width="120px" /> 
+                                        <br>
+                                        <button class='vote-button'>VOTE</button></div>
+                                    </center>
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+
+             
+            </div>
+        </center>
+            <div class="footer">
+                Copyright &copy; Div 2021 - Infinity&nbsp;
+            </div>
+        </div><script>
+                        function hoverOn() {
+                          document.getElementById("overlay").style.display = "block";
+                        }
+                        hoverOff()
+                        function hoverOff() {
+                          document.getElementById("overlay").style.display = "none";
+                        }
+                        </script>
+    </body>
+</html>
